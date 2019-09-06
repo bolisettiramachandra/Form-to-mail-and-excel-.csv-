@@ -4,7 +4,7 @@ $email=$_POST['email'];
 $data=$email;
 
 
-$file="nosmar.csv";
+$file="file.csv";
 
 
 file_put_contents($file, $data . PHP_EOL, FILE_APPEND);
